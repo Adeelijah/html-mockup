@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&family=Poppins:ital,wght@0,100;1,100;1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+    height: 100nh;
+    background-size: cover;
+    background-position: center;
+    font-family: karla;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #0000;
+    text-transform: uppercase;
+    font-family: Dm serif Display;
+    font-weight: 400px;
+    color: hsl(216, 30%, 68%);
+}
+
+.navbar ul li a:hover {
+    color: hsl(256, 26%, 20%);
+}
+
+.navbar-btn {
+    background-color: transparent;
+    color: hsl(256, 26%, 20%);
+    border: 1px solid hsl(256, 26%, 20%);
+}
+
+.navbar-btn:hover {
+    color: #fff;
+    background-color: hsl(256, 26%, 20%);
+}
+
+button {
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: transparent;
+    background-color: #fff;
+    color: hsl(256, 26%, 20%);
+}
+
+.container {
+    background: hsl(256, 26%, 20%);
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.left-col {
+    width: 40%;
+}
+
+.left-col h1 {
+    font-size: 60px;
+    color: #fff;
+}
+
+.left-col p {
+    color: #fff;
+    padding: 20px 0;
+}
+
+.top-right {
+    position: absolute;
+    top: -10%;
+    right: -10%;
+    transform: scale(0.6);
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: -30%;
+    left: -5%;
+}
+
+.subhead {
+    font-weight: 400px;
+}
+
+.about {
+    margin-top: 20vh;
+    padding: 6em;
+    width: 100%;
+}
+
+.about h1 {
+    font-size: 50px;
+    padding: 20px 0;
+}
+
+.unique {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.item {
+    padding: 20px 0;
+}
+
+.item img,
+h3,
+p {
+    padding: 0 30px 20px 0;
+}
+
+.cta {
+    width: 100%;
+    height: 200px;
+    background-color: hsl(256, 26%, 20%);
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.cta h1 {
+    color: #fff;
+    margin-left: 30px;
+}
+
+.cta button {
+    position: absolute;
+    right: 15%;
+    align-self: center;
+}
+
+.cta-img {
+    position: absolute;
+}
